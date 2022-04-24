@@ -22,6 +22,7 @@ def main():
    pin.on()
    sleep(2)
    pin.off()
+   return "<p>gate open</p>"
 
 if __name__ == "__main__":
    app.run(host='0.0.0.0', port=80, debug=True)
