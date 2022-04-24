@@ -17,7 +17,7 @@ pin = LED(18)
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/12345")
 def main():
    pin.on()
    sleep(2)
